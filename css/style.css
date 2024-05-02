@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000; /* Light color for better readability */
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 2.5rem; /* Larger font size for the main title */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Text shadow for better visibility */
+    color:#f4f4f4;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px; /* Spacing for a cleaner look */
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav a {
+    margin-left: 20px;
+}
+
+article {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    clear: both;
+}
+header {
+    background-image: url('../assets/contact_icons/DALL·E 2024-05-02 04.28.54 - A creative and tech-themed digital illustration for a website header, featuring a cute and futuristic koala robot character interacting with advanced .webp'); /* Add your image path here */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Keep text color white for better readability */
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #a2c5bc 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+nav {
+    float: right;
+    margin-top: 10px;
+}
+nav a {
+    margin-left: 20px;
+}
+article {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    clear: both;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+/* Slider styles */
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.slider-wrapper {
+    position: relative;
+    width: 100%; /* Set this to the width of your slider */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px; /* Adjust size as needed */
+    cursor: pointer;
+    color: #fff; /* Change as per your design */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */
+    padding: 10px;
+    user-select: none; /* Prevent text selection */
+}
+
+.left-arrow {
+    left: 10px; /* Adjust based on padding and visibility */
+}
+
+.right-arrow {
+    right: 10px; /* Adjust based on padding and visibility */
+}
+#slide-container {
+    display: flex;
+    width: 100%; /* Container width */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around; /* Evenly space the icons across the container */
+    align-items: center;
+}
+
+.icon {
+    width: 40px; /* Adjust the size to your preference */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transform effect on hover */
+}
+
+a:hover .icon {
+    transform: scale(1.1); /* Slightly increase icon size on hover */
+}
+.image-container {
+    display: flex;  /* Establishes a flex container */
+    align-items: center;  /* Aligns items vertically in the center */
+    justify-content: space-around;  /* Distributes space around items */
+    overflow-x: auto;  /* Allows horizontal scrolling if images exceed container width */
+    padding: 10px 0;  /* Provides padding above and below the image container */
+}
+
+.project-img {
+    max-width: 100%;  /* Ensures images do not exceed their containers */
+    height: auto;  /* Maintains aspect ratio */
+    margin-right: 10px;  /* Space between images */
+}
+
+.project-img:last-child {
+    margin-right: 0;  /* Removes margin from the last image */
+}
+.experience-item {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin: 20px 0;
+}
+
+.company-logo {
+    width: 80px; /* Adjust the logo size as necessary */
+    height: auto;
+    margin-right: 20px; /* Space between logo and details */
+}
+
+.experience-details h3 {
+    margin-top: 0;
+    color: #333; /* Dark text for better readability */
+}
+
+.dates {
+    font-style: italic;
+    color: #555; /* Subtle color for the dates */
+}
+
+.experience-details p {
+    margin: 5px 0;
+}

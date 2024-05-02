@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Few-Shot Segmentation with SAM and LoRA",
+        "description": "A novel image segmentation technique that allows precise segmentation with minimal training data.",
+        "images": ["assets/projects_images/few_shot_sam_lora/cityscapes.png","assets/projects_images/few_shot_sam_lora/coco.png","assets/projects_images/few_shot_sam_lora/soccer.png"],
+        "githubLink": "https://github.com/amit154154/SAM_LORA"
+    },
+    {
+        "title": "CelebryLook",
+        "description": "Mobile app for transforming faces using advanced GAN technologies. Winner of the MobileXGenAI hackathon.",
+        "images": ["assets/projects_images/CelebryLook/blond_woman_with_sunglasses.gif","assets/projects_images/CelebryLook/wining_hackaton.jpeg","assets/projects_images/CelebryLook/Donald_Trump_looking_left.gif"],
+        "githubLink": "https://github.com/amit154154/CelebrityLook"
+    },
+    {
+        "title": "Funko Pop! Generator",
+        "description": "Project lead on creating custom Funko Pop figures using AI.",
+        "images": ["assets/projects_images/PopYou!/ras_dreamgaussian.gif","assets/projects_images/PopYou!/Barack_Obama_fastgan.png","assets/projects_images/PopYou!/alan_turing_dreamgaussian.gif"],
+        "githubLink": "https://github.com/amit154154/PopYou"
+    },
+    {
+        "title": "KoalaReadingAI",
+        "description": "Founder of an AI podcast summarizing the latest research papers.",
+        "images": ["assets/projects_images/koala_reading_ai.jpeg"],
+        "githubLink": "https://github.com/amit154154/KoalaReadingPapers"
+    }
+
+]
+
