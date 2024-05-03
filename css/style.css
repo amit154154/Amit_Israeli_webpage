@@ -45,7 +45,7 @@ article {
     clear: both;
 }
 header {
-    background-image: url('../assets/contact_icons/DALL·E 2024-05-02 04.28.54 - A creative and tech-themed digital illustration for a website header, featuring a cute and futuristic koala robot character interacting with advanced .webp'); /* Add your image path here */
+    background-image: url('../assets/contact_icons/header_page.webp'); /* Add your image path here */
     background-size: cover; /* Cover the entire header area */
     background-position: center; /* Center the background image */
     color: #fff; /* Keep text color white for better readability */
