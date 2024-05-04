@@ -7,19 +7,19 @@
     },
     {
         "title": "CelebrityLook",
-        "description": "Mobile app for transforming faces using advanced GAN technologies. Winner of the MobileXGenAI hackathon.",
+        "description": "Mobile app for transforming faces using advanced GAN technologies on device. Winner of the MobileXGenAI hackathon.",
         "images": ["assets/projects_images/CelebryLook/blond_woman_with_sunglasses.gif","assets/projects_images/CelebryLook/wining_hackaton.jpeg","assets/projects_images/CelebryLook/Donald_Trump_looking_left.gif"],
         "githubLink": "https://github.com/amit154154/CelebrityLook"
     },
     {
         "title": "Funko Pop! Generator",
-        "description": "Project lead on creating custom Funko Pop figures using AI.",
+        "description": "Project lead on creating custom Funko Pop figures using text or real life images.",
         "images": ["assets/projects_images/PopYou!/ras_dreamgaussian.gif","assets/projects_images/PopYou!/Barack_Obama_fastgan.png","assets/projects_images/PopYou!/alan_turing_dreamgaussian.gif"],
         "githubLink": "https://github.com/amit154154/PopYou"
     },
     {
         "title": "KoalaReadingAI",
-        "description": "Founder of an AI podcast summarizing the latest research papers.",
+        "description": "Founder of an AI podcast summarizing the latest research papers automatically.",
         "images": ["assets/projects_images/koala_reading_ai_gif.mp4"],
         "githubLink": "https://github.com/amit154154/KoalaReadingPapers"
     }
