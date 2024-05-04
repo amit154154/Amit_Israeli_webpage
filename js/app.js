@@ -38,15 +38,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 slide.className = 'slide';
 
                 // Create an image container
-                const imageContainer = document.createElement('div');
-                imageContainer.className = 'image-container';
+                const mediaContainer = document.createElement('div');
+                mediaContainer.className = 'media-container';
 
-                // Loop through each image and append to the image container
-                project.images.forEach(image => {
-                    const imageLink = document.createElement('a');
-                    imageLink.href = project.githubLink;
-                    imageLink.innerHTML = `<img src="${image}" alt="${project.title}" class="project-img">`;
-                    imageContainer.appendChild(imageLink);
+                // Loop through each media item and append to the media container
+                project.images.forEach(media => {
+                    const mediaLink = document.createElement('a');
+                    mediaLink.href = project.githubLink;
+
+                    // Check if the media item is an MP4 video
+                    if (media.endsWith('.mp4')) {
+                        mediaLink.innerHTML = `<video autoplay controls loop class="project-media"><source src="${media}" type="video/mp4"></video>`;
+                    } else { // Assume it's an image
+                        mediaLink.innerHTML = `<img src="${media}" alt="${project.title}" class="project-media">`;
+                    }
+
+                    mediaContainer.appendChild(mediaLink);
                 });
 
                 // Construct slide HTML
@@ -54,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3>${project.title}</h3>
                     <p>${project.description}</p>
                 `;
-                slide.appendChild(imageContainer); // Append image container to slide
+                slide.appendChild(mediaContainer); // Append media container to slide
                 container.appendChild(slide);
             });
             // Set the initial slide to show
