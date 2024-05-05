@@ -104,7 +104,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px; /* Adjust size as needed */
+    font-size: 18px; /* Adjust size as needed */
     cursor: pointer;
     color: #fff; /* Change as per your design */
     background-color: rgba(0, 0, 0, 0.5); /* Optional: for better visibility */

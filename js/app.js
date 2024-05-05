@@ -47,12 +47,17 @@ document.addEventListener('DOMContentLoaded', function() {
                     mediaLink.href = project.githubLink;
 
                     // Check if the media item is an MP4 video
-                    if (media.endsWith('.mp4')) {
-                        mediaLink.innerHTML = `<video autoplay controls loop class="project-media"><source src="${media}" type="video/mp4"></video>`;
-                    } else { // Assume it's an image
+                    if (media.includes('youtube.com') || media.includes('youtu.be')) {
+                        // Extract YouTube ID and create an iframe for embedding
+                        const youtubeID = media.split('v=')[1] ? media.split('v=')[1].split('&')[0] : media.split('/').pop();
+                        mediaLink.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeID}?autoplay=1&loop=1&playlist=${youtubeID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="project-media"></iframe>`;
+                    } else if (media.endsWith('.mp4')) {
+                        // It's an MP4 file
+                        mediaLink.innerHTML = `<video autoplay controls loop muted class="project-media"><source src="${media}" type="video/mp4"></video>`;
+                    } else {
+                        // Assume it's an image
                         mediaLink.innerHTML = `<img src="${media}" alt="${project.title}" class="project-media">`;
                     }
-
                     mediaContainer.appendChild(mediaLink);
                 });
 

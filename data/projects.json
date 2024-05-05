@@ -7,8 +7,8 @@
     },
     {
         "title": "CelebrityLook",
-        "description": "Mobile app for transforming faces using advanced GAN technologies on device. Winner of the MobileXGenAI hackathon.",
-        "images": ["assets/projects_images/CelebryLook/blond_woman_with_sunglasses.gif","assets/projects_images/CelebryLook/wining_hackaton.jpeg","assets/projects_images/CelebryLook/Donald_Trump_looking_left.gif"],
+        "description": "Mobile app for transforming faces using advanced GAN technologies on device in real time. Winner of the MobileXGenAI hackathon.",
+        "images": ["assets/projects_images/CelebryLook/blond_woman_with_sunglasses.gif","assets/projects_images/CelebryLook/wining_hackaton.jpeg","assets/projects_images/CelebryLook/Donald_Trump_looking_left.gif","https://www.youtube.com/watch?v=7AELeRx0RxY"],
         "githubLink": "https://github.com/amit154154/CelebrityLook"
     },
     {
